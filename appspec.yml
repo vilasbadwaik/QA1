@@ -3,8 +3,6 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/QA1
-  - source: /
-    destination: /var/www/html/QA2
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
