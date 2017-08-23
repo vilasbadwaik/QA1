@@ -1,12 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /QA
-    destination: /var/www/html/QA
-  - source: /QA1
+  - source: /
     destination: /var/www/html/QA1
-  - source: /QA2
-   destination: /var/www/html/QA3
+  - source: /
+    destination: /var/www/html/QA2
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
